@@ -12,7 +12,13 @@ import lombok.Data;
 @Data
 public class User {
 
+    /**
+     * 年龄
+     */
     public int age;
 
+    /**
+     * 名称
+     */
     public String name;
 }
